@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+
+
+
+.navbar{
+font-family: 'Rye', cursive;
+font-style: normal;
+
+color: #FFFFFF;
+
+border: 3px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
