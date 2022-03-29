@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroomclone\\Cloak-Room\\CafeAPI\\CafeAPI.csproj": {}
+    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroomclone\\Cloak-Room\\CafeAPI\\CafeAPI.csproj": {
+    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroomclone\\Cloak-Room\\CafeAPI\\CafeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
         "projectName": "CafeAPI",
-        "projectPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroomclone\\Cloak-Room\\CafeAPI\\CafeAPI.csproj",
+        "projectPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
         "packagesPath": "C:\\Users\\wil16001766.CENTRAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroomclone\\Cloak-Room\\CafeAPI\\obj\\",
+        "outputPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
