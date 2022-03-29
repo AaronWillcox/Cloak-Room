@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <img src='./src/beverage-background.jpg'/>
     <Header/>
     </>
   );
