@@ -10,7 +10,9 @@ return (
                 <div className="banner-content text-center">
                     <h1 className="heading-text">Welcome to the Cloakroom</h1>
                     <Button as={Link} to="/products" variant="light" className="px-5">Menu</Button>
+                    <img src='./src/beverage-background.jpg'/>
                 </div>
+
             </div>
     </div>
   )
