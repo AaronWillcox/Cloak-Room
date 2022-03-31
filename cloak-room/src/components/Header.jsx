@@ -1,6 +1,8 @@
 import React from 'react'
 import {Navbar, Container, Nav, Dropdown} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
+import Cart from './Cart'
+
 
 function Header() {
   return (
@@ -16,8 +18,11 @@ function Header() {
         <Nav.Link href="/contact">Contact and Event Hire</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
       </Nav>
+      <Cart/>
     </Navbar.Collapse>
   </Container>
+
+
 </Navbar>
 </div>
   )

@@ -10,9 +10,15 @@ function Product({product}) {
             <h4>£{product.price}</h4>
             <p>{product.description}</p>
             <Button as={Link} to={`/menu/${product.id}`} className="d-block w-100 my-2" variant="light">View {product.name}</Button>
-            <Button className="d-block w-100 my-2" variant="primary">Add to basket</Button>
+            <Button className="d-block w-100 my-2" variant="primary" onClick={e => addToBasket(product.id)}>Add to basket</Button>
         </Container>
     )
+    function addToBasket(id)
+    (
+        console.log("Product Added To Basket")
+    )
+
+
 }
 
 
