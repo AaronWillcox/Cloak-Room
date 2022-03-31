@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {}
+    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\A2\\Cloak-Room\\CafeAPI\\CafeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {
+    "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\A2\\Cloak-Room\\CafeAPI\\CafeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\A2\\Cloak-Room\\CafeAPI\\CafeAPI.csproj",
         "projectName": "CafeAPI",
-        "projectPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
+        "projectPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\A2\\Cloak-Room\\CafeAPI\\CafeAPI.csproj",
         "packagesPath": "C:\\Users\\wil16001766.CENTRAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\obj\\",
+        "outputPath": "C:\\Users\\wil16001766.CENTRAL\\OneDrive - Bridgwater and Taunton College\\A2\\Cloak-Room\\CafeAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\wil16001766.CENTRAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
