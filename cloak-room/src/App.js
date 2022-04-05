@@ -21,7 +21,7 @@ function App() {
   return (
 
     <Router>
-        <Header />
+        <Header/>
           <Routes>
             <Route exact path="/" element={<AboutUsScreen/>} />
             <Route exact path="/aboutus" element={<AboutUsScreen/>} />
