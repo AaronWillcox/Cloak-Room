@@ -16,7 +16,7 @@ function AddProductScreen() {
       console.log('Button Clicked!')
       console.log(name)
       console.log(price)
-      const {response} = await axios.post("https://localhost:7214/api/products",//go back to change
+      const {response} = await axios.post("https://localhost:3000/api/products",//go back to change
       {
           name:name,
           

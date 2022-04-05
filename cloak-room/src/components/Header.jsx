@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, Container, Nav, Dropdown} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import Cart from './Cart'
-
+ //<Cart/>//Cart.jsx will break the react pages. Do not use 
 
 function Header() {
   return (
@@ -18,7 +18,10 @@ function Header() {
         <Nav.Link href="/contact">Contact and Event Hire</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
       </Nav>
-      <Cart/>
+      
+      
+      
+
     </Navbar.Collapse>
   </Container>
 
