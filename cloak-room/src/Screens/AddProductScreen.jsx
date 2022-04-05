@@ -1,30 +1,45 @@
 import React, {useState, useEffect} from 'react';
 import FormContainer from '../components/FormContainer';
 import {Form, Button, FormControl} from 'react-bootstrap'
-
+import { render } from '@testing-library/react';
 import axios from 'axios'
 
 function AddProductScreen() {
 
     const [name, SetName] = useState('')
     const [price, SetPrice] = useState(0)
-
-    const [posting, SetPosting] = useState(false)
+    const [image, setImage] = useState('')
 
     const submitHandler = async () =>{
-      SetPosting(true)
-      console.log('Button Clicked!')
-      console.log(name)
-      console.log(price)
-      const {response} = await axios.post("https://localhost:7180/api/product",//go back to change
-      {
-          name:name,
-          
-          price:price
-          
-      })
-      console.log(response)
-  }
+
+        var file = document.getElementById("image")['files'][0]
+
+        var reader = new FileReader()
+        reader.onloadend = () => {
+            setImage(reader.result)
+        }
+        reader.readAsDataURL(file)
+
+        console.log(image)
+        await fetch('https://localhost:7180/api/product', 
+        {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                Name: name,
+                Price: price,
+                Image: image
+            })
+        })
+       .then(response => response.json())
+       .catch((error) => {
+            console.error('error', error)
+       })
+        
+
+    }
 
   return (
     <div>
@@ -37,7 +52,7 @@ function AddProductScreen() {
 
             
             <FormContainer>
-            <Form>
+            <Form id="upload" encType="multipart/form-data">
                   <Form.Group className="mb-3" controlId="name">
                         <Form.Label className="content-text">Product Name</Form.Label>
                         <FormControl 
@@ -53,12 +68,17 @@ function AddProductScreen() {
                         placeholder="Product Price (£)..." 
                         onChange={(e)=>SetPrice(e.target.value)}/>
                   </Form.Group>
+                
+                <Form.Group controlId="image" className="mb-3">
+                    <Form.Label className="content-text">Product Image</Form.Label>
+                    <Form.Control type="file" />
+                </Form.Group>
             
             <Button
                 varient="primary"
                 className="w=100"
                 onClick={submitHandler}
-            >   Add Product
+            ><div className="content-text">Add Product</div>
 
             </Button>
             </Form>

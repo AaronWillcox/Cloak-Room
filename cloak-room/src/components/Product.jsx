@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom'
 
 function Product({product}) {
     return (
-        <Container className="m-2">
+        <Container className="m-2 content-text">
             <h3>{product.name}</h3>
             <h4>£{product.price}</h4>
-            
+            <img className="w-100" src={product.image} alt={product.name} />
             <Button className="d-block w-100 my-2" variant="primary" onClick={e => addToBasket(product.id)}>Add to basket</Button>
         </Container>
     )

@@ -11,6 +11,7 @@ namespace CafeAPI.Models
         [Required]
         public double Price { get; set; }
 
+        public string Image { get; set; }
 
     }
 }
