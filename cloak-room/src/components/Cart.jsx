@@ -1,6 +1,6 @@
-import Button from '@restart/ui/esm/Button'
 import { React, useEffect, useState } from 'react'
-import {Badge} from 'react-bootstrap'
+import {Nav} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 function Cart() {
     const [count, setCount] = useState(0);
@@ -15,10 +15,9 @@ function Cart() {
 
   
     return (
-    <div>
-        
-        <Button>Basket <Badge bg="warning" text="dark">{count}</Badge></Button>
-    </div>
+    <>
+        <Nav.Link as={Link} to="/basket">Basket<b>{count}</b></Nav.Link>
+    </>
   )
 }
 

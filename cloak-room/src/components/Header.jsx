@@ -17,6 +17,7 @@ function Header() {
         <Nav.Link href="/menu">Order From Our Menu</Nav.Link>
         <Nav.Link href="/contact">Contact and Event Hire</Nav.Link>
         <Nav.Link href="/login">Login</Nav.Link>
+        <Nav.Link href="/register">Register</Nav.Link>
       </Nav>
       
       

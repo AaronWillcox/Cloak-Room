@@ -29,6 +29,25 @@ namespace CafeAPI.Controllers
             return await _context.Products.ToListAsync();
         }
 
+        
+        [Route("cart")]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<MenuItemModel>>> GetCartItems(int[] products)
+        {
+            List<MenuItemModel> prods = new List<MenuItemModel>();
+
+            foreach (var id in products)
+            {
+                var productModel = await _context.Products.FindAsync(id);
+                if(productModel != null)
+                {
+                    prods.Add(productModel);
+                }
+            }
+
+            return await _context.Products.ToListAsync();
+        }
+
         // GET: api/MenuItem/5
         [HttpGet("{id}")]
         public async Task<ActionResult<MenuItemModel>> GetMenuItemModel(int id)

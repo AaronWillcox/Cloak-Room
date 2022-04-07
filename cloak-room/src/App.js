@@ -10,6 +10,7 @@ import LoginScreen from './Screens/LoginScreen';
 import ManageProductScreen from './Screens/ManageProductScreen';
 import MenuScreen from './Screens/MenuScreen';
 import RegisterScreen from './Screens/RegisterScreen';
+import BasketScreen from './Screens/BasketScreen';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
             
@@ -29,9 +30,10 @@ function App() {
             <Route exact path ="/contact" element={<ContactScreen/>}/>
             <Route exact path ="/register" element={<RegisterScreen/>}/>
             <Route exact path ="/login" element={<LoginScreen/>}/>
-            <Route exact path = "addproduct" element={<AddProductScreen/>}/>
-            <Route exact path = "manageproduct" element={<ManageProductScreen/>}/>
-            <Route exact path = "product/edit/:id" element={<EditProductScreen/>}/>
+            <Route exact path = "/addproduct" element={<AddProductScreen/>}/>
+            <Route exact path = "/manageproduct" element={<ManageProductScreen/>}/>
+            <Route exact path = "/product/edit/:id" element={<EditProductScreen/>}/>
+            <Route exact path = "/basket" element={<BasketScreen/>}/>
           </Routes>
       </Router>
 
