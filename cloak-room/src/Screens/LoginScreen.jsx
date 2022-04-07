@@ -27,7 +27,7 @@ function LoginScreen() {
                 window.localStorage.setItem('token', data.token)
                 window.localStorage.setItem('name', data.firstName + ' ' + data.lastName)
                 window.localStorage.setItem('role', data.role)
-                window.location.href = '/home'
+                window.location.href = '/aboutus'
             } 
             else
             {
