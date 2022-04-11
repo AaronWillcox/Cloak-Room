@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wil16001766.CENTRAL.000\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {}
+    "C:\\Users\\aaron\\Documents\\SCDT52 - A2\\CafeAPI\\CafeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wil16001766.CENTRAL.000\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj": {
+    "C:\\Users\\aaron\\Documents\\SCDT52 - A2\\CafeAPI\\CafeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wil16001766.CENTRAL.000\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\Documents\\SCDT52 - A2\\CafeAPI\\CafeAPI.csproj",
         "projectName": "CafeAPI",
-        "projectPath": "C:\\Users\\wil16001766.CENTRAL.000\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\CafeAPI.csproj",
-        "packagesPath": "C:\\Users\\wil16001766.CENTRAL.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wil16001766.CENTRAL.000\\OneDrive - Bridgwater and Taunton College\\Cloakroom\\CafeAPI\\obj\\",
+        "projectPath": "C:\\Users\\aaron\\Documents\\SCDT52 - A2\\CafeAPI\\CafeAPI.csproj",
+        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aaron\\Documents\\SCDT52 - A2\\CafeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\wil16001766.CENTRAL.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
