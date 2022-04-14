@@ -69,7 +69,7 @@ opacity: 75%;
   background-image: url("beverage-background.jpg");
   background-position: center;
   background-repeat:no-repeat;
-  background-size:auto;
+  background-size:cover;
 }
 
 .body{
